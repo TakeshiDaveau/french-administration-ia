@@ -269,28 +269,99 @@ employeur / doc type "equity statement".
 
 ---
 
-## P-10 — Dons : deux plafonds différents
+## P-10 — Dons : cases multiples, plafonds qui ont bougé
 
-**Détection** : profil phase 1 (F2) OU reçu fiscal dans documents.
+**Détection** : profil phase 1 (F2) OU reçu fiscal dans documents. **Ce piège est
+critique** : Bercy ne pré-remplit JAMAIS les cases dons — si l'utilisateur oublie,
+l'État considère que c'était un cadeau supplémentaire.
 
-**Règle** :
-- **Dons aux associations d'aide aux personnes en difficulté** (Restos du Cœur,
-  Secours Catholique, Banque Alimentaire, Croix-Rouge pour certaines actions) :
-  **réduction 75 %** jusqu'à 1 000 € (plafond 2025 à vérifier), puis 66 %
-  au-delà. Case **7UD**.
-- **Dons aux autres associations d'intérêt général** (culture, environnement,
-  recherche, association sportive d'intérêt général) : **réduction 66 %**,
-  plafond **20 % du revenu imposable**. Case **7UF**.
+### Règles pour la campagne 2026 (revenus 2025)
 
-**Risque** : déclarer un don en 7UD alors qu'il relève de 7UF → refus admin ou
-redressement.
+**Dispositif Coluche — aide aux personnes en difficulté** (Restos du Cœur,
+Secours Populaire, Secours Catholique, Croix-Rouge pour l'aide aux personnes,
+Banque Alimentaire, Emmaüs, Fondation Abbé Pierre, Petits Frères des Pauvres,
+Médecins du Monde, Action contre la Faim, associations d'accompagnement des
+victimes de violence domestique, organismes fournissant gratuitement repas/soins/
+logement aux personnes en difficulté) :
 
-**Question user** :
-> "Pour chaque don, quel est le nom de l'association ? L'association délivre-t-elle
-> un reçu fiscal précisant 'aide aux personnes en difficulté' (art. 200.1 ter) ou
-> 'intérêt général' (art. 200.1) ?"
+- **Réduction 75 %**, mais **split temporel** dû à la LF 2026 qui a doublé le
+  plafond à partir du 14/10/2025 :
+  - **Dons du 1ᵉʳ janvier au 13 octobre 2025 → case 7UD**, plafond **1 000 €**
+    à 75 %.
+  - **Dons du 14 octobre au 31 décembre 2025 → nouvelle case 7UQ**,
+    plafond **2 000 €** à 75 %.
+- Excédent au-delà du plafond 75 % → bascule automatique à 66 % en 7UF,
+  dans la limite 20 % du revenu imposable.
 
-**Source** : art. 200 CGI, notice 2042-RICI.
+**Dons d'intérêt général** (culture, environnement, recherche médicale,
+protection animale, association sportive d'intérêt général, enseignement
+supérieur, etc.) : **réduction 66 %**, plafond **20 % du revenu imposable**,
+case **7UF**. Report possible sur 5 ans du surplus.
+
+**Cotisations / dons aux partis politiques** : réduction 66 %, plafond
+spécifique **7 500 €/personne** (15 000 €/couple). **Numéro de case à
+confirmer sur la notice 2042-RICI de l'année** (a varié : souvent 7UH ou
+équivalent). En cas de doute → WebFetch notice.
+
+**Patrimoine religieux** : le taux **75 %** accordé aux dons à la Fondation du
+patrimoine pour les édifices religieux (communes < 10 000 hab.) **expire le
+31/12/2025**. Pour la campagne 2026 : dons 2025 encore à 75 %, même principe de
+split ? (**à vérifier sur notice officielle 2042-RICI 2026**). Dès revenus 2026 :
+basculement au droit commun 66 % / 7UF.
+
+### Règles à anticiper pour la campagne 2027 (revenus 2026)
+
+**Niche Chambord** (LF 2026 art. 30) : dons 2026 pour la restauration du
+château de Chambord → réduction **75 %** plafond **1 000 €**, via établissement
+public du domaine, Trésor public, Centre des monuments nationaux, Fondation de
+France, Fondation du patrimoine. Excédent → 66 %. **Dispositif temporaire,
+année 2026 uniquement.**
+
+### Risques principaux
+
+1. **Oubli total** : cases jamais pré-remplies → perte sèche de la réduction.
+2. **Mauvaise case** : un don "aide aux personnes" déclaré en 7UF (66 %) au
+   lieu de 7UD/7UQ (75 %) → manque à gagner de 9 points.
+3. **Mauvais split temporel 2025** : tous les dons Coluche saisis en 7UD au
+   lieu de splitter 7UD (avant 14/10) / 7UQ (après 14/10) → plafonnement trop
+   bas (1 000 € au lieu de 2 000 € sur la tranche post-14/10).
+4. **Plafond 20 % dépassé** sur 7UF sans tracer le report : le surplus n'est
+   pas perdu (reportable 5 ans) mais faut explicitement l'indiquer.
+
+### Questions user
+
+> "Tu as fait des dons à des associations en 2025 ? Y compris à des partis
+> politiques, des fondations, ou à un établissement religieux ? Même les petits
+> dons ponctuels, tout compte."
+
+Si oui, pour chaque don :
+
+> "Nom de l'association / fondation ? Montant ? **Date du versement** (important
+> : un don du 15/10 est traité différemment d'un don du 15/09) ? Type d'action
+> mentionnée sur le reçu fiscal CERFA n° 11580 : aide aux personnes en difficulté
+> (art. 200.1 ter / ter bis), intérêt général (art. 200.1), parti politique
+> (art. 200.3) ?"
+
+### Calcul exemple
+
+Don 3 000 € à la Croix-Rouge le 05/11/2025 + don 500 € à une association sportive
+dans l'année :
+- 7UQ = 2 000 € (plafond 75 % post-14/10) → réduction 1 500 €.
+- 7UF = 1 000 € (excédent Croix-Rouge) + 500 € (asso sportive) = 1 500 € à 66 %
+  → réduction 990 €.
+- **Total réduction = 2 490 €** sur 3 500 € donnés (coût réel 1 010 €).
+
+Sans déclaration correcte → 0 € de réduction. Don devient un pur cadeau.
+
+### Conservation des reçus
+
+L'utilisateur doit conserver les reçus fiscaux **3 ans** après la déclaration.
+Rappeler ce point en phase 6.
+
+### Source
+
+Art. 200 CGI, art. 978 CGI (partis), art. 28 et 30 LF 2026, notice 2042-RICI
+de l'année concernée (à WebFetcher pour validation annuelle).
 
 ---
 

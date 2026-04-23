@@ -98,10 +98,25 @@ Cocher tout ce qui s'applique :
 
 - F1. Emploi à domicile (ménage, jardinage, soutien scolaire, garde enfant > 6 ans
   à domicile) ? → crédit 50 %, plafond et majorations selon situation.
-- F2. Dons aux associations en N :
-  - F2a. Aide aux personnes en difficulté (Restos du Cœur, Croix-Rouge…) :
-    réduction 75 % jusqu'à plafond, puis 66 %.
-  - F2b. Intérêt général : réduction 66 %.
+- F2. Dons aux associations / fondations / partis en N ? **Question
+  systématique** — ces cases ne sont jamais pré-remplies, un oubli = perte
+  sèche. Lister TOUS les dons même petits :
+  - F2a. Aide aux personnes en difficulté (Restos du Cœur, Secours Populaire,
+    Secours Catholique, Croix-Rouge aide aux personnes, Banque Alimentaire,
+    Emmaüs, Fondation Abbé Pierre, Petits Frères des Pauvres, Médecins du
+    Monde, Action contre la Faim, accompagnement des victimes de violence
+    domestique, organismes fournissant gratuitement repas/soins/logement) :
+    75 % avec **split temporel 2025** (case 7UD si avant 14/10, case 7UQ si
+    à partir du 14/10) — voir `pitfalls.md` P-10.
+  - F2b. Intérêt général (culture, environnement, recherche, sport d'intérêt
+    général, protection animale, enseignement supérieur…) : 66 %, plafond
+    20 % du revenu imposable, case 7UF.
+  - F2c. Parti politique (cotisation ou don) : case 7UH, plafond 7 500 €/pers
+    (15 000 €/couple).
+  - F2d. Patrimoine religieux via Fondation du patrimoine (commune < 10 000
+    hab.) : 75 % jusqu'au 31/12/2025, puis bascule droit commun 66 %.
+  - **Important** : demander la **date précise** de chaque don (jour/mois)
+    pour bien placer le don 2025 en 7UD ou 7UQ.
 - F3. Dispositifs locatifs en cours :
   - F3a. Pinel / Pinel+ (engagement 6/9/12 ans) ?
   - F3b. Denormandie ?

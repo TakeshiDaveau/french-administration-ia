@@ -72,9 +72,13 @@ Détail des réductions/crédits.
 - 7DB : emploi à domicile (crédit 50 %).
 - 7GA / 7GB / 7GC / 7GG : garde d'enfants < 6 ans.
 - 7EA / 7EC / 7EF : scolarité enfants (collège / lycée / sup).
-- 7UD / 7UF : dons (aide aux personnes 75 % / intérêt général 66 %).
+- **Dons** (campagne 2026 pour revenus 2025) :
+  - **7UD** : dons aide aux personnes en difficulté, versés du 01/01 au 13/10/2025 — 75 %, plafond 1 000 €.
+  - **7UQ** : (nouvelle case 2026) dons aide aux personnes en difficulté, versés du 14/10 au 31/12/2025 — 75 %, plafond 2 000 € (LF 2026 art. 28).
+  - **7UF** : dons intérêt général + excédent des 7UD/7UQ — 66 %, plafond 20 % revenu imposable, report 5 ans.
+  - Dons partis politiques : case dédiée — numéro à confirmer sur notice 2042-RICI de l'année (souvent 7UH ou équivalent), plafond 7 500 € / personne.
+  - Chambord 2026 (LF 2026 art. 30) : 75 % plafond 1 000 € sur dons 2026 au domaine de Chambord — concerne campagne 2027.
 - 7AC / 7AE : cotisations syndicales.
-- 7UH : investissements FIP / FCPI / SOFICA.
 - 7QA-7QR : Pinel / Pinel+ par millésime.
 
 ## 2044 — Revenus fonciers (régime réel)
