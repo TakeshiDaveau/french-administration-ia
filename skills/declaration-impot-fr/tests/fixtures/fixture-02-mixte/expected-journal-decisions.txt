@@ -1,0 +1,17 @@
+# IDs de décisions attendues dans journal.md
+
+D-01 : PFU vs barème → PFU retenu (2OP non cochée)
+# Justification : TMI 30 %, abattement 40 % sur 1200 = base 720, barème donne ≈ 216 IR vs PFU 154 déjà payé. PS dans les deux cas. PFU plus simple, écart ~62 €.
+
+D-02 : SCPI Corum XL (Allemagne) → méthode crédit d'impôt égal impôt français
+# Source : convention France-Allemagne art. 20 + notice 2047 section VI.
+# Cases : 2047 section VI + 2042 4BK + 8TK.
+
+D-03 : crédit garde enfant Léa (4 ans, crèche) → 7GA = 2400
+# Plafond 3500 €/enfant (2024, à vérifier N), net après CMG = 2400 < plafond.
+
+D-04 : don Secours Catholique → 7UD (aide aux personnes, 75 %)
+# Source : reçu fiscal mentionne art. 200-1 ter CGI.
+
+# Pièges attendus signalés : P-01, P-04, P-08, P-10
+# Cas de refus attendus : aucun

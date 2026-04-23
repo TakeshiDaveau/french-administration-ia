@@ -1,0 +1,31 @@
+{
+  "foyer": {
+    "etat_civil": "marie",
+    "enfants": [
+      {"prenom": "Léa", "age": 4, "garde_alternee": false},
+      {"prenom": "Paul", "age": 11, "garde_alternee": false}
+    ],
+    "parts_fiscales": 3.0
+  },
+  "changements_N": [],
+  "revenus_attendus": ["salaires", "dividendes_francais", "revenus_fonciers_etranger"],
+  "logement_emprunts": {
+    "rp": "proprietaire",
+    "emprunts": ["rp_en_cours"]
+  },
+  "enfants_famille": {
+    "garde_enfants_moins_6": true,
+    "scolarite": ["college"]
+  },
+  "autres_reductions": {
+    "dons": true
+  },
+  "meta": {
+    "annee_N": 2025,
+    "campagne": 2026,
+    "declaration": "commune"
+  },
+  "formulaires_pressentis": ["2042", "2042-RICI", "2044", "2047"],
+  "pieges_a_surveiller": ["P-01", "P-04", "P-08", "P-10"],
+  "cas_de_refus": []
+}
