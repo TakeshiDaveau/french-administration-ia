@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/banner.png" alt="French Admin IA — Your AI shortcut through French paperwork" />
+</p>
+
 # french-administration-ia
 
 Skills Claude Code pour les démarches administratives françaises.
