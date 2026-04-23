@@ -1,0 +1,23 @@
+{
+  "foyer": {
+    "etat_civil": "celibataire",
+    "enfants": 0,
+    "parts_fiscales": 1.0
+  },
+  "changements_N": [],
+  "revenus_attendus": ["salaires"],
+  "logement_emprunts": {
+    "rp": "locataire",
+    "emprunts": []
+  },
+  "enfants_famille": {},
+  "autres_reductions": {},
+  "meta": {
+    "annee_N": 2025,
+    "campagne": 2026,
+    "declaration": "separee"
+  },
+  "formulaires_pressentis": ["2042"],
+  "pieges_a_surveiller": ["P-04"],
+  "cas_de_refus": []
+}

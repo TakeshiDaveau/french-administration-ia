@@ -1,0 +1,7 @@
+# IDs de décisions attendues dans journal.md
+
+D-01 : PFU vs barème → PFU retenu (2OP non cochée)
+# Justification attendue : pas de RCM imposables dans l'année, l'option n'a pas d'impact.
+
+# Pièges attendus signalés : P-04
+# Cas de refus attendus : aucun

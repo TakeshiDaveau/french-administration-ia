@@ -1,0 +1,13 @@
+BULLETIN DE PAIE — DÉCEMBRE 2025
+Employeur : ACME SAS
+Salarié : Martin Jean
+Période : 01/12/2025 au 31/12/2025
+
+Salaire brut mensuel : 3 800,00 €
+Cotisations salariales : 950,00 €
+Net imposable mensuel : 2 920,00 €
+
+CUMUL ANNUEL 2025
+Brut imposable cumul : 45 600,00 €
+Net imposable cumul (1AJ) : 35 040,00 €
+Prélèvement à la source cumul : 2 108,00 €
