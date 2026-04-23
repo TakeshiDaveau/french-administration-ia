@@ -1,0 +1,13 @@
+# Refus attendus dans cette fixture
+
+R-02 : régime d'impatriation art. 155B
+# Détecté en phase 1 (question B6 ou bulletin de paie en phase 2).
+# Action attendue du skill : soit refus global, soit plan partiel avec
+#   avertissement explicite en tête et en synthèse.
+# Message type attendu : "Ta situation inclut un régime d'impatriation
+#   art. 155B. Ce type de déclaration nécessite une expertise spécifique que
+#   ce skill ne couvre pas. Je te recommande de consulter un expert-comptable."
+
+# Cas implicitement exclus par R-02 :
+# - calcul de l'exonération prime d'impatriation
+# - RSU vestées en 2025 sous régime impat (P-07 complexifié par R-02)

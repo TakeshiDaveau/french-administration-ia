@@ -1,0 +1,14 @@
+INTERACTIVE BROKERS IRELAND LIMITED
+Consolidated Tax Statement 2025
+
+Account : U1234567
+Holder : Durand Alice
+Address : 20 avenue Kléber, 75116 Paris
+
+Interest received : 450,00 €
+Dividends (US securities) : 820,00 € (withholding tax 15 % already applied)
+Capital gains realized : 1 250,00 €
+
+NOTE : IBKR does NOT issue a French IFU. Report must be done manually.
+Account was opened on 2020-03-15 and remains active. Reporting obligation
+under art. 1649 A CGI (3916).

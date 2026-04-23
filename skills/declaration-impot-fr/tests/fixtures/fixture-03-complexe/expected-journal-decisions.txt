@@ -1,0 +1,8 @@
+# IDs de décisions attendues dans journal.md
+
+D-01 : LMNP micro vs réel → À DÉCIDER par utilisateur
+# Micro 5ND = 7100, Réel 5NC = 4300. Question posée, attend réponse.
+
+# Pièges attendus signalés : P-03, P-06, P-07
+# Cas de refus attendus : R-02 (impatriation art. 155B)
+# Avertissement explicite doit apparaître en tête de plan et summary.

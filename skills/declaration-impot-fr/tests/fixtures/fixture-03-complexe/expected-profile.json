@@ -1,0 +1,23 @@
+{
+  "foyer": {
+    "etat_civil": "celibataire",
+    "enfants": 0,
+    "parts_fiscales": 1.0
+  },
+  "changements_N": ["retour_france", "embauche_france", "impatriation_art_155B"],
+  "revenus_attendus": ["salaires", "dividendes_etranger", "plus_values_titres", "plus_values_crypto", "lmnp"],
+  "logement_emprunts": {
+    "rp": "locataire_ou_proprietaire",
+    "emprunts": []
+  },
+  "enfants_famille": {},
+  "autres_reductions": {},
+  "meta": {
+    "annee_N": 2025,
+    "campagne": 2026,
+    "declaration": "separee"
+  },
+  "formulaires_pressentis": ["2042", "2042-C", "2042-C-PRO", "2086", "3916", "3916-bis"],
+  "pieges_a_surveiller": ["P-03", "P-06", "P-07"],
+  "cas_de_refus": ["R-02"]
+}
