@@ -144,17 +144,23 @@ différentes du contrat), signaler.
 
 ## P-06 — DFS (Déduction Forfaitaire Spécifique) abrogée
 
-**Détection** : contrat antérieur à 2024 mentionne DFS.
+**Détection** : contrat antérieur à 2024 mentionne DFS, ou bulletin de paie
+ancien servant de référence pour le calcul brut/net.
 
-**Règle** : la DFS pour les ass. mat. est **abrogée depuis le 1er janvier
-2024**. Ne plus l'appliquer. Les anciens bulletins de paie (2023 et avant)
-ne sont plus une référence fiable pour la part cotisations/net.
+**Règle** : la DFS pour les particuliers employeurs d'assistantes maternelles
+**ne s'applique plus à compter de 2024** (suppression progressive selon les
+dispositifs URSSAF). Concrètement, pour un contrat ass. mat. signé ou
+renouvelé en 2024 ou après, ne pas l'appliquer ; pour les bulletins
+antérieurs servant de référence, ils ne reflètent plus la fiscalité
+actuelle.
 
-**Action** : si le contrat mentionne DFS, signaler à l'utilisateur que la
-règle a changé et que le salaire mensuel net peut avoir évolué à
-contrat égal.
+**Action** : si le contrat mentionne DFS, ou si l'utilisateur s'appuie sur
+des bulletins 2023 et antérieurs, signaler que le brut→net peut avoir
+évolué à contrat égal et que les valeurs récentes (Pajemploi a posteriori)
+sont plus fiables.
 
-**Source** : réforme URSSAF 2024, lettre-circulaire URSSAF.
+**Source à WebFetcher en cas de doute** : urssaf.fr et pajemploi.urssaf.fr
+(rubrique réformes 2024 sur les particuliers employeurs).
 
 ---
 
