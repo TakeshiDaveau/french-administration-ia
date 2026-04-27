@@ -1,2 +1,5 @@
 tmp/
 tmp-*/
+pajemploi/
+declaration-impot-*/
+.DS_Store
