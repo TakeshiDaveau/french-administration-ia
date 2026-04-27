@@ -16,8 +16,9 @@
 - **Mode détecté** : Mode B (déclaration mensuelle), contrat-emma.md présent (fixture).
 - **Workflow SKILL.md suivi** : oui (lecture contrat → chargement `monthly-fields.md` + `pitfalls.md` → questionnaire → calculs → écriture template).
 - **Calculs clés** :
-  - Salaire net = 850 (mensualisé) + 1 020 (indemnité CP annuelle, mode juin) = **1 870,00 €** ✔
-  - Indemnité CP = 10 200 × 10 % = **1 020,00 €** ✔
+  - Salaire net payé = **850,00 €** (mensualisé, mode CP juin → CP sur ligne dédiée) ✔
+  - Indemnité CP (champ dédié) = 10 200 × 10 % = **1 020,00 €** ✔
+  - Total versé = 850 + 1 020 + 75,60 = **1 945,60 €** (info, hors champs disjoints) ✔
   - IE = 21 × 3,60 = **75,60 €** ✔
   - Heures normales = **168 h** ✔
   - HC / HM / Repas / Km / CP pris / Absences = **0** ✔
@@ -34,7 +35,7 @@
 | Nombre d'heures normales | 168 | 168 | OK |
 | Heures complémentaires | 0 | 0 | OK |
 | Heures majorées | 0 | 0 | OK |
-| Salaire net payé | 1 870,00 € | 1 870,00 € | OK |
+| Salaire net payé | 850,00 € | 850,00 € | OK |
 | Nombre de jours d'accueil | 21 | 21 | OK |
 | Indemnités d'entretien | 75,60 € | 75,60 € | OK |
 | Indemnités de repas | 0,00 € | 0,00 € | OK |

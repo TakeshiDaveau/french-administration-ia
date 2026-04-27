@@ -11,7 +11,7 @@
 | Nombre d'heures normales | 168 | planning effectif lun-ven 02/06 → 30/06 (21 j × 8 h) |
 | Heures complémentaires | 0 | aucune semaine > 40 h |
 | Heures majorées | 0 | aucune semaine > 45 h |
-| Salaire net payé | 1 870,00 € | mensualisé 850,00 € + indemnité CP annuelle 1 020,00 € (mode CP juin) |
+| Salaire net payé | 850,00 € | mensualisé (mode CP juin → CP sur ligne dédiée) |
 | Nombre de jours d'accueil | 21 | présence enfant effective (tous les jours ouvrés) |
 | Indemnités d'entretien | 75,60 € | 21 × 3,60 € (accueil ≥ 9 h) |
 | Indemnités de repas | 0,00 € | repas fournis par les parents |
@@ -25,7 +25,7 @@
 - **Mensualisation 850,00 € appliquée** (contrat année complète, mode paie mensualisé). Salaire fixe indépendant du nombre de jours ouvrés du mois.
 - **P-01 — Mode CP = juin** détecté dans le contrat. Mois courant = juin 2025 → **versement de l'indemnité CP annuelle CE MOIS** (1/10 de la base brute de l'année de référence juin N-1 → mai N).
 - **Base CP année de référence juin 2024 → mai 2025 = 10 200 € brut** (valeur fournie par l'utilisateur). Indemnité CP = 10 200 × 10 % = **1 020,00 €**.
-- **Salaire net total ce mois = 850 + 1 020 = 1 870,00 €** (la ligne "Indemnités de CP" reste séparée pour traçabilité, mais l'indemnité est inclue dans le salaire net versé en mode juin).
+- **Total versé ce mois = 850 + 1 020 + 75,60 = 1 945,60 €** (Salaire net payé 850 € sur champ dédié, Indemnités de CP 1 020 € sur ligne séparée, IE 75,60 € — convention skill = champs disjoints).
 - **P-03 — IE** : 21 jours d'accueil effectif × 3,60 €/jour = 75,60 €. Pas d'absence enfant, donc IE plein.
 - **P-02 — Absences** : aucune absence ce mois. Pas d'ajustement.
 - **P-04 — HC/HM** : ventilation hebdo confirmée à 40 h × 5 semaines partielles ≈ 168 h, jamais > 40 h sur une semaine civile. Pas de HC ni HM.

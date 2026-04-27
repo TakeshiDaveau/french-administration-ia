@@ -18,7 +18,8 @@
 - Vérification que l'indemnité CP apparaît distinctement dans le tableau.
 
 ## Attendus
-- Salaire net juin = **850 + 1 020 = 1 870 €**.
+- Salaire net juin (champ Pajemploi) = **850 €**.
+- Indemnité CP (champ dédié) = **1 020 €**. Total brut versé = 850 + 1 020 + 75,60 IE = 1 945,60 €.
 - IE = 21 × 3,60 = 75,60 €.
 - Indemnité CP = 1 020 € (ligne distincte).
 - Le skill doit **poser la question** "quelle est la base CP de l'année de

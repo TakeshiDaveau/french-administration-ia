@@ -11,7 +11,7 @@
 | Nombre d'heures normales | 168 | planning complet juin 2025 |
 | Heures complémentaires | 0 | |
 | Heures majorées | 0 | |
-| Salaire net payé | 1 870,00 € | 850 mensualisé + 1 020 indemnité CP annuelle |
+| Salaire net payé | 850,00 € | mensualisé (mode CP juin → CP sur ligne dédiée) |
 | Nombre de jours d'accueil | 21 | tous jours ouvrés, pas d'absence |
 | Indemnités d'entretien | 75,60 € | 21 × 3,60 |
 | Indemnités de repas | 0,00 € | parents fournissent |
@@ -25,9 +25,8 @@
 - Mode CP = **juin** → indemnité CP annuelle 1 020 € versée ce mois (P-01).
 - Base CP année de référence (juin 2024 → mai 2025) = 10 200 € brut.
 - Calcul : 10 200 × 10 % = 1 020 €.
-- **Ligne "Indemnité CP" distincte** de la ligne "Salaire net payé" sur Pajemploi :
-  à saisir sur le champ dédié si existe, sinon inclus dans salaire avec mention.
-- Salaire total versé à l'assmat ce mois = 1 870 € (salaire + CP) + 75,60 € IE.
+- **Ligne "Indemnité CP" séparée** du "Salaire net payé" : convention skill = champs disjoints. Total versé ce mois = 850 + 1 020 + 75,60 = 1 945,60 €.
+- Total brut versé à l'assmat ce mois (info) = 1 945,60 € = 850 (salaire) + 1 020 (CP) + 75,60 (IE).
 
 ## À vérifier avant saisie
 
@@ -36,5 +35,4 @@
 - [x] Pas de CP pris ce mois (l'indemnité annuelle est versée même si
   l'assmat ne prend pas physiquement ses vacances en juin — elle les prendra
   plus tard).
-- [x] Vérifier sur pajemploi.urssaf.fr : champ "indemnité CP" séparé du
-  salaire normal, ou fusionné ? (à valider sur interface réelle)
+- [x] Champ "Indemnité CP" saisi séparément du "Salaire net payé" sur Pajemploi (interface réelle à confirmer une fois lors de la première saisie).

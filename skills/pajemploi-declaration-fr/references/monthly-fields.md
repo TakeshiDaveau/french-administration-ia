@@ -24,18 +24,21 @@ colonne sont indicatifs.
 
 ### Rémunération
 
-- **Salaire net payé** = selon cas :
+- **Salaire net payé** = part rémunération **hors indemnité CP**, selon cas :
   - Année complète mensualisée, mois standard : **salaire mensualisé** du
     contrat.
   - Heures complémentaires ce mois : mensualisé + HC × taux horaire.
   - Heures majorées ce mois : mensualisé + HM × taux horaire × 1,25.
   - Année incomplète (non mensualisée) : heures réelles × taux horaire.
-  - Mode CP "lissé" : mensualisé + 1/12 de l'indemnité annuelle CP.
-  - Mode CP "prise" et CP pris ce mois : mensualisé (inchangé) + indemnité
-    CP correspondante.
-  - Mode CP "juin" en mois de juin : mensualisé + indemnité CP annuelle
-    (1/10 brut année de référence).
+  - Mode CP "lissé" : mensualisé + 1/12 de l'indemnité annuelle CP
+    (exception au principe : en lissé, l'indemnité fait corps avec le
+    salaire et ne se décompose pas en ligne séparée).
   - Ajustement absences (voir `pitfalls.md` P-02).
+
+  En modes CP **juin** et **prise**, l'indemnité CP du mois est exclue du
+  "Salaire net payé" et reportée sur la ligne dédiée "Indemnités de CP".
+  Total versé à l'assmat = Salaire net payé + Indemnités de CP + autres
+  indemnités (IE, repas, km).
 
 ### Présence enfant
 
