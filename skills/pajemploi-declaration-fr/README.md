@@ -33,13 +33,7 @@ compagnon d'automatisation navigateur (hors v1).
 
 ## Limitations
 
-Le skill refuse de traiter :
-- R-01 : fin de contrat / rupture / solde de tout compte.
-- R-02 : garde partagée multi-familles.
-- R-03 : CDD avec conditions particulières.
-- R-04 : activité partielle / arrêt maladie prolongé de l'assmat.
-
-Pour ces cas : consulter un conseiller Pajemploi ou un expert paie.
+Le skill refuse de traiter les cas R-01 à R-04 (fin de contrat / rupture, garde partagée, CDD particulier, activité partielle de l'assmat). Voir `references/pitfalls.md` pour le détail. Pour ces cas, consulter un conseiller Pajemploi ou un expert paie.
 
 ## Structure
 

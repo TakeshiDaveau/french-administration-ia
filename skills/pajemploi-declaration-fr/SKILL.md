@@ -23,10 +23,7 @@ pour recoupement.
 - Parents employeurs d'une assmat agréée en CDI mensualisé, année complète.
 - Cycle mensuel de déclaration sur pajemploi.urssaf.fr.
 
-**Ne pas utiliser pour** : fin de contrat / rupture (R-01), garde partagée
-multi-familles (R-02), CDD avec conditions particulières (R-03), activité
-partielle de l'assmat (R-04). Pour ces cas : renvoyer vers un conseiller
-Pajemploi ou un expert paie.
+**Ne pas utiliser pour** les cas de refus listés dans `references/pitfalls.md` (R-01 à R-04 : fin de contrat, garde partagée, CDD particulier, activité partielle de l'assmat). Pour ces cas → conseiller Pajemploi ou expert paie.
 
 ## Workflow en 3 modes
 
