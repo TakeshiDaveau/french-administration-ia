@@ -67,8 +67,7 @@ maladie. WebFetch en cas de doute sur la règle des 5 jours/an.
 
 **Règles** :
 - **Obligatoire dès 9 h d'accueil** dans la journée.
-- **Minimum légal** = 85 % du minimum garanti (MG). Valeur 2025 ≈ 3,58 €/jour.
-  À vérifier annuellement via WebFetch (pajemploi.urssaf.fr ou urssaf.fr).
+- **Minimum légal** = 85 % du minimum garanti (MG). `2025-VALUE: ≈ 3,58 €/jour`. **Toujours WebFetch pajemploi.urssaf.fr ou urssaf.fr pour valider la valeur de l'année courante** — ne pas réutiliser cette valeur en aveugle pour 2026 et au-delà.
 - **Pour accueil < 9 h** : proratisée, calcul `IE × heures / 9`.
 - **Pas d'IE les jours d'absence enfant** (même convenance parents) — l'IE
   couvre l'usure liée à la présence.

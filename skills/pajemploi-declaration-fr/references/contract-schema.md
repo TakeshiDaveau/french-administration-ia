@@ -59,7 +59,7 @@ d'exécution.
 
 - **Indemnité d'entretien (IE)** journalière pour accueil ≥ 9 h :
   montant en €/jour fixé dans le contrat, minimum légal 85 % du minimum
-  garanti (MG) ≈ 3,58 €/jour en 2025 (à confirmer chaque année).
+  garanti (MG). `2025-VALUE: ≈ 3,58 €/jour`, à WebFetcher chaque année (pajemploi.urssaf.fr).
 - **IE pour accueil < 9 h** : proratisée (IE × heures / 9), à préciser si le
   contrat y fait référence explicitement.
 - **Indemnité de repas** : si les parents fournissent les repas, généralement
