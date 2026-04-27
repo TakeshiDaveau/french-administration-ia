@@ -74,14 +74,26 @@ maladie. WebFetch en cas de doute sur la règle des 5 jours/an.
 - IE **non imposable** côté assmat, **pas de cotisations** — c'est un
   remboursement de frais.
 
-**Piège classique** : calculer l'IE sur `jours du mois` au lieu de
+**Piège classique** : calculer l'IE sur `jours du mois` ou sur une valeur
+mensualisée constante (ex. « 22 jours toujours ») au lieu de
 `jours de présence effective`.
+
+**Méthode de calcul correcte** (à appliquer chaque mois, ne pas réutiliser
+une valeur du mois précédent) :
+
+1. Compter les **jours ouvrés réels** du mois (lun-ven du calendrier).
+2. Soustraire les **jours fériés où l'assmat ne travaille pas**.
+3. Soustraire les **absences enfant** déclarées par le parent (maladie,
+   vacances, convenance parents).
+4. Résultat = jours d'accueil effectifs, base de calcul IE et repas.
 
 **Question user** :
 
 > "Combien de jours l'enfant a-t-il été effectivement présent chez l'assmat
 > ce mois ? (distinct des jours prévus au contrat — si l'enfant n'est pas
-> venu pour convenance parents ou maladie, ça ne compte pas pour l'IE)"
+> venu pour convenance parents ou maladie, ça ne compte pas pour l'IE).
+> J'ai besoin du calendrier du mois (jours fériés non travaillés par l'assmat)
+> + nombre de jours d'absence enfant pour calculer."
 
 **Escalade** : si doute sur la valeur du plancher IE, WebFetch
 pajemploi.urssaf.fr.
